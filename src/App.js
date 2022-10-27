@@ -5,6 +5,7 @@ import GlobalStyle from "./GlobalStyles";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Footer from "./Components/Footer";
+import Scroll from "./Components/ImgScroll";
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
       <Navbar  />
       <About />
       <Projects />
+      <Scroll />
       <Footer />
     </Router>
   );

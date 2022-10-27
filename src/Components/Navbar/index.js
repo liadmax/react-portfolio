@@ -42,18 +42,18 @@ window.addEventListener('resize', showButton);
                     </NavLinks>
                 </NavItem>
                 <NavItem>
-                    <NavLinks to='/services'>
-                        experience
+                    <NavLinks to='/expirience'>
+                        projects
                     </NavLinks>
                 </NavItem>
                 <NavItem>
-                    <NavLinks to='/products'>
-                        projects
+                    <NavLinks to='/fun'>
+                        fun
                     </NavLinks>
                 </NavItem>
                 <NavItemBtn>
                     {button ? (
-                        <NavBtnLink to="/sign-up">
+                        <NavBtnLink to="/Footer">
                             <Button primary> lets connect</Button>
                         </NavBtnLink>
                     ):(

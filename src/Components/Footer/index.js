@@ -17,7 +17,7 @@ import {
 
 const Footer = () => {
   return (
-    <FooterContainer>
+    <FooterContainer className='Footer'>
       <FooterWrap>
         <SocialMedia>
           <SocialMediaWrap>

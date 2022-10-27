@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Header, Section, List, Open, Sub, Add } from './AboutElements'
+import { Container, Header, Section, List, Open, Sub, Add, Port, Ship, Button } from './AboutElements'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -49,6 +49,13 @@ const About = () => {
   }
 
 
+  function Nice(){
+   console.log('look for the secret message somewhere')
+ 
+      alert('ther is somthing you need to see.... copy this url and paste it in the browser: https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+    
+  }
+
 
 
   return (
@@ -62,13 +69,28 @@ const About = () => {
       <Open>a short list of my skill's</Open>
       <Add>i am constantly leaning and increasing this list!</Add>
       <Carousel responsive={responsive}>
-  <div> <Sub onClick={pullOne}>specializing in react </Sub></div>
-  <div> <Sub onClick={pullTwo}>javascript/type-script</Sub></div>
-  <div><Sub onClick={pullThree}>raect-nativ</Sub></div>
-  <div><Sub onClick={pullFour}>ai face recognition</Sub></div>
-  <div><Sub onClick={pullFive}>and server side with node.js</Sub></div>
+  <div> <Sub onClick={pullOne}>specializing in REACT </Sub></div>
+  <div> <Sub onClick={pullTwo}>javascript/TypeScript</Sub></div>
+  <div><Sub onClick={pullThree}>REACT-native</Sub></div>
+  <div><Sub onClick={pullFour}>AI face recognition</Sub></div>
+  <div><Sub onClick={pullFive}> server side with node.js</Sub></div>
+  <div><Sub onClick={pullFive}>ANGULAR</Sub></div>
 </Carousel>
     </List>
+    <Section>
+     somting about the frameworks im working in and the projects i have done
+    
+    </Section>
+    <Open>INCLUDING:</Open>
+    
+    <Port>
+      <Ship>react.js</Ship>
+      <Ship>react-native</Ship>
+      <Ship>angular</Ship>
+      
+    </Port>
+    <Button onClick={Nice} >click me !</Button>
+   
 
     
   </Container>

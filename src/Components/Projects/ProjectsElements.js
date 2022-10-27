@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 background: #ffffff;
-height: 100vh;
+height: 90vh;
 width: 100vw;
 `
 export const Header = styled.h1`
