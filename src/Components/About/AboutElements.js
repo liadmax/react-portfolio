@@ -9,7 +9,7 @@ export const Header = styled.h1`
 color: #ffffff;
 padding-left: 10vw;
 padding-right: 10vw;
-@media and (min-width: 768px) {
+@media  (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
@@ -23,7 +23,7 @@ export const Section = styled.p`
 color: #ffffff;
 padding-left: 10vw;
 padding-right: 10vw;
-@media and (min-width: 768px) {
+@media  (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
@@ -31,14 +31,14 @@ padding-right: 10vw;
     width: 50vw;
     height: 50vh;
     margin-top: 5vh;
-}
+};
 
 `
 export const Open = styled.h2`
 color: #ffffff;
 padding-left: 10vw;
 padding-right: 10vw;
-@media and (min-width: 768px) {
+@media  (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
@@ -54,7 +54,7 @@ padding-left: 10vw;
 padding-right: 10vw;
 font-family: 'Courier New', Courier, monospace;
 background: rgba(255, 255, 255, 0.2);
-@media and (min-width: 768px) {
+@media  (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
@@ -84,7 +84,7 @@ margin-left: 2vw;
 color: #ffffff;
 
 
-@media and (min-width: 768px) {
+@media (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
@@ -162,7 +162,6 @@ border-radius: 8px;
 margin-left: 8vw;
 height: 10vh;
 width: 20vw;
-cursor: pointer;
 :hover{
 cursor: pointer;
 float: right;
