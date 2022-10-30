@@ -47,12 +47,16 @@ const About = () => {
     console.log('node.js')
     
   }
+  function pullSix(){
+    console.log('angular')
+  }
 
 
   function Nice(){
    console.log('look for the secret message somewhere')
  
       alert('ther is somthing you need to see.... copy this url and paste it in the browser: https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+    
     
   }
 
@@ -74,7 +78,7 @@ const About = () => {
   <div><Sub onClick={pullThree}>REACT-native</Sub></div>
   <div><Sub onClick={pullFour}>AI face recognition</Sub></div>
   <div><Sub onClick={pullFive}> server side with node.js</Sub></div>
-  <div><Sub onClick={pullFive}>ANGULAR</Sub></div>
+  <div><Sub onClick={pullSix}>ANGULAR</Sub></div>
 </Carousel>
     </List>
     <Section>
@@ -89,8 +93,9 @@ const About = () => {
       <Ship>angular</Ship>
       
     </Port>
+ 
     <Button onClick={Nice} >click me !</Button>
-   
+ 
 
     
   </Container>

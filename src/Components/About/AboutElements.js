@@ -9,7 +9,7 @@ export const Header = styled.h1`
 color: #ffffff;
 padding-left: 10vw;
 padding-right: 10vw;
-@media  (min-width: 768px) {
+@media and (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
@@ -23,7 +23,7 @@ export const Section = styled.p`
 color: #ffffff;
 padding-left: 10vw;
 padding-right: 10vw;
-@media  (min-width: 768px) {
+@media and (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
@@ -31,14 +31,14 @@ padding-right: 10vw;
     width: 50vw;
     height: 50vh;
     margin-top: 5vh;
-};
+}
 
 `
 export const Open = styled.h2`
 color: #ffffff;
 padding-left: 10vw;
 padding-right: 10vw;
-@media  (min-width: 768px) {
+@media and (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
@@ -54,7 +54,7 @@ padding-left: 10vw;
 padding-right: 10vw;
 font-family: 'Courier New', Courier, monospace;
 background: rgba(255, 255, 255, 0.2);
-@media  (min-width: 768px) {
+@media and (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
@@ -84,7 +84,7 @@ margin-left: 2vw;
 color: #ffffff;
 
 
-@media (min-width: 768px) {
+@media and (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
@@ -157,20 +157,20 @@ transform: scale(1.01);
 
 export const Button = styled.button`
 background: #ffffff;
-color:#000000;
+color:rgba(178, 70, 98, 0.2);
 border-radius: 8px;
-margin-left: 8vw;
-height: 10vh;
-width: 20vw;
+color: #000000;
+height: 7vh;
+width: 14vw;
 :hover{
-cursor: pointer;
+color: red;
+background-color: blue;
+padding: 10px;
+display: flex;
 float: right;
-margin-right: 8vw;
-
+flood-opacity: 0%;
 
 }
-
-
 `
 
 
